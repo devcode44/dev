@@ -1,0 +1,58 @@
+.content-about {
+  padding               : 30px;
+  margin                : 30px;
+  text-align            : center;
+  border-radius         : 20px;
+  color                 : white;
+  background-color      : #2C2C3C;
+  width                 : 40%;
+  margin-top            : 160px;
+  position              : relative; 
+  border-bottom-left-radius   : 102px; 
+  border                : 1px solid white;
+}
+
+a {
+  text-decoration        : none;
+  color                  : red;
+  margin                 : 6px;
+}
+
+.content-about:after {
+    position            : absolute;
+    content             : "" ;
+    background-color    : #2C2C3C;
+    padding             : 10px;
+    left                : 80px;
+    bottom              : -10px;
+    transform           : rotate(50deg);
+    border-bottom       : 1px solid white;
+    border-right        : 1px solid white;
+}
+
+header nav a {
+    text-decoration     : none;
+    font-size           : 1.5em;
+    margin              : 20px;
+    color               : white;
+}
+
+.about-me {
+  margin-left           : 800px;
+  margin-top            : -340px;
+}
+
+main .content {
+  line-height: 1.5em;
+  background-color       : white;
+  padding                : 30px;
+  border-radius          : 30px;
+  border-bottom-left-radius     : 90px; 
+}
+
+@media screen and (max-width:600px) {
+  .content-about {
+    width               : 90%;
+    right               : 40px;
+  }
+}
