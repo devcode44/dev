@@ -121,7 +121,7 @@ button {
 @media screen and (max-width:600px){
 
    nav a {
-    display           : none;
+    display           : block;
   }
   
   nav #bars {
