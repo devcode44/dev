@@ -120,13 +120,7 @@ button {
 }
 @media screen and (max-width:600px){
 
-   nav a {
-    display           : block;
-  }
-  
-  nav #bars {
-    display           : block;
-  }
+
 
   main .content {
     margin-left        : 8px;
