@@ -41,7 +41,6 @@ footer {
 }
 
 main .content {
-    font-szie:1.2em;
     box-shadow      : 2px 20px 50px 10px   black;
     border-radius   : 10px;
     padding         : 100px;
@@ -58,6 +57,7 @@ main .content a:hover {
 
 
 main .content , a {
+  font-szie:1.2em;
   text-decoration   : none;
   color             : white;
   padding           : 10px;
