@@ -120,8 +120,6 @@ button {
 }
 @media screen and (max-width:600px){
 
-
-
   main .content {
     margin-left        : 8px;
   }
@@ -133,5 +131,9 @@ button {
 
   .teach {
     text-align        : center;
+  }
+    
+  #dp {
+      display         :none;
   }
 }
