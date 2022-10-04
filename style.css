@@ -119,7 +119,11 @@ button {
  
 }
 @media screen and (max-width:600px){
-
+    
+  header nav {
+      text-align       : center;
+  }
+    
   main .content {
     margin-left        : 8px;
   }
