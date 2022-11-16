@@ -1,0 +1,92 @@
+body, html {
+  height              : 140%;
+  margin              : 0;
+  font-family         : Arial, Helvetica, sans-serif;
+}
+
+.content-2 div p {
+  display       : none;
+}
+
+header , nav a {
+    padding         :20px;
+    text-decoration :none;
+    color           :white;
+    font-family     : 'Courier New', Courier, monospace;
+  }
+
+header a:hover {
+  border-bottom   : 1px solid white;
+  color: red;
+}
+
+summary {
+  list-style       : none;
+  cursor           : pointer;
+  text-align       : center;
+  font-size        : 20px;
+}
+
+
+dropdown {position     : relative;     display: inline-block;}
+
+.dropdown-content {
+  display               : none;
+  position              : absolute;
+  z-index               : 1;
+  min-width             : 200px;
+  box-shadow            : 2px 20px 50px 10px   black;
+}
+
+.dropdown-content a {
+  font-family           : cursive;
+  color                 : white;
+  display               : block;
+  text-decoration       : none;
+  padding               : 5px 10px;
+  }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+main section div {
+    padding             : 10px;
+    width               : 30%;
+    box-shadow      : 2px 20px 50px 10px   black;
+    margin-top          : 150px;
+    margin-left         : 90px;
+    line-height         : 2em;
+    border-radius       : 5px;
+    color: white;
+  
+}
+
+main section div span {
+    display             : grid;
+    text-align          : center;
+}
+
+main  .content-2 div  {
+  float                 : right;
+  margin-right          : 30px;
+  top                   : -350px;
+  position              : relative;
+}
+
+.content-2 details span {
+  text-align            : left;
+}
+
+@media screen and (max-width:600px) {
+
+  main section div {
+    width               : 90%;
+    margin-left         : 12px;
+  }
+  
+
+  main .content-2 div {
+    top                 : 100px;
+    margin-right        :20px;
+  }
+  
+}
